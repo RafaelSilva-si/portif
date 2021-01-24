@@ -1,0 +1,107 @@
+
+body{
+  font-family: 'Noto Sans HK', sans-serif;
+}
+
+#b1{
+  color: blue;
+  font-weight: bolder;
+}
+.navbar-light .navbar-nav .nav-link {
+  color:  black;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+  color: blue;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: rgba(0,0,0,.0);
+}
+
+.scrolling-wrapper{
+	overflow-x: auto;
+}
+#contatos a{
+  color: black;
+  text-decoration: none;
+}
+
+/*Media*/
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+  /*CONF GERAIS*/
+ 
+  h1{
+    font-size: 2em;
+    font-weight: bold;
+ }
+ h2{
+     color: white;
+     font-size: 2em;
+ }
+ #sobre p{
+    color:black;
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-align: inherit;
+ 
+}
+#borda p{
+    font-size: 1em;
+}
+#servicos p{
+    font-size: 1em;
+}
+.bord{
+    border:none;
+}
+.bordB{
+    border-bottom: 1px solid rgba(0,0,0,0.4);
+    margin-bottom: 10px;
+}
+#sobreMim{
+  margin-top: 150px;
+}
+#foto{
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  background-image: url(eu.jpeg);
+  background-size: cover;
+}
+}
+
+
+@media only screen and (max-width: 767.98px) {
+  #saudacao{
+    margin-top: 40px;
+  }
+  #texto{
+  height: 80px;
+  }
+  
+}
+ 
+
+@media only screen and (min-width: 1200px) {
+  
+  #saudacao{
+    margin-top: 150px;
+  }
+  #loading img{
+    width: 500px;
+  }
+  #sobreMim{
+    margin-top: 150px;
+  }
+  #foto{
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+    background-image: url(eu.jpeg);
+    background-size: cover;
+  }
+
+}
